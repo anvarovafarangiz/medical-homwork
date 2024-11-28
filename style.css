@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nosifer&display=swap');
+
+
+body, button{
+    font-family: "Mulish", sans-serif; 
+    padding: 50px 50px;
+}
+
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+  .container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 46px;
+}
+
+.nav{
+   display: flex;
+   align-items: center;
+   gap: 600px;
+}
+
+.t{
+     width: 40px;
+     height: 40px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: rgb(255, 255, 255);
+    font-size: 26px;
+    font-weight: 200;
+    line-height: 33px;
+    background-color: aqua;
+    border-radius: 100%;
+    transition: 0.5s;
+}
+
+.nav_link{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+.logo-text{
+    color: rgb(35, 51, 72);
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 30px;
+   
+}
+
+.nav_list{
+     display: flex;
+     align-items: center;
+     gap: 20px;
+     margin: 50px;
+    
+}
+
+.link{
+    color: rgba(31, 21, 52, 0.5);   
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 23px;
+    letter-spacing: 0%;
+   
+}
+
+.link:hover{
+    color: rgb(31, 21, 52);
+}
+
+.wrapper{
+    margin: 100px 0 96px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapper_left, .wrapper_right{
+    width: 35%;
+}
+
+.virtual{
+    width: 80%;
+    color: rgb(0, 0, 0);
+    font-size: 48px;
+    font-weight: 200;
+    line-height: 56px;
+    
+}
+
+.p{
+    color: rgb(125, 121, 135);
+    font-size: 21px;
+    font-weight: 200;
+    line-height: 32px;
+    margin: 26px 0 36px 0;
+}
+
+.button{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 23px;
+    border-radius: 55px;
+    background: rgb(69, 143, 246);
+    width: 200px;
+    height: 50px;
+    border: none;
+    padding: 14px 36px;
+}
+
+.photo{
+    width: 100%;
+    object-fit: contain;
+}
+
+
+
+.h2{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.p{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 28px;
+    width: 70%;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.div h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+
+.service{
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+    font-weight: 200;
+    line-height: 56px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.service-info{
+    color: rgb(125, 121, 135);
+    font-size: 18px;
+    font-weight: 200;
+    width: 65%;
+    text-align: center;
+    margin: 0 auto 36px auto;
+}
+
+.card-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 40px;
+}
+
+.card-item{
+    width: 30%;
+    padding: 68px 58px 28px 40px;
+    background-color: rgb(231, 231, 231);
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+    border-radius: 30px;
+    margin-left: 40px;
+}
+
+.card-item h2{
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 56px;
+    margin: 40px 0 20px 0;
+}
+
+.card-item p{
+    width: 90%;
+    color: rgb(125, 121, 135);
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 28px;
+    letter-spacing: 0%;
+    transition: 0.5s;
+}
+
+.img{
+    width: 70px;
+    height: 75px;
+}
+
+.card-item:hover {
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+    background: rgb(90, 152, 242);
+ }
+
+ .card-item:hover h2{
+    color: white;
+ }
+
+ .card-item:hover p{
+    color: white;
+ }
+
+ .buton{
+    width: 300px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1.4px solid rgb(69, 143, 246);
+    border-radius: 55px;
+    margin: 0 auto;
+    padding-top: 20px ;
+ }
+
+ .buton h3{
+    color: rgb(69, 143, 246);
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 23px;
+ }
+
+ .buton:hover{
+    background-color:rgb(90, 152, 242) ;
+ }
+
+ .buton:hover h3{
+    color: white;
+ }
+
+ .h2{
+    color: rgb(0, 0, 0);
+    font-size: 48px;
+    font-weight: 200;
+    line-height: 56px;
+    margin-top: 70px;
+ }
+
+ .btn{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+
+ .right{
+    width: 40%;
+ }
+
+ .right h2{
+    width: 80%;
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+    font-weight: 200;
+    line-height: 56px;
+ }
+
+ .right p{
+    width: 80%;
+    color: rgb(125, 121, 135);
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+    margin: 62px 0 40px 0;
+ }
+
+ .ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+.li{
+    width: 30%;
+    margin: 20px;
+}
+ .li h3{
+    width: 60%;
+    color: black;
+    font-size: 21px;
+    font-weight: 200;
+    line-height: 32px;
+ }
+
+ .li p{
+    width: 60%;
+    color: rgb(125, 121, 135);
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 28px;
+ }
+
+ .li b{
+    color: rgb(64, 137, 237);
+    font-size: 17px;
+    font-weight: 200;
+    line-height: 28px;
+ }
+
+ .T{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+   font-size: 26px;
+   font-weight: 200;
+   line-height: 33px;
+   color: aqua;
+   border-radius: 100%;
+  margin: 40px 20px 0 0;
+ }
+
+ footer{
+    height: 500px;
+    margin-top: 50px;
+    background: linear-gradient(211.68deg, rgb(103, 195, 243) 8.549%,rgb(90, 152, 242) 70.494%);
+    display: flex;flex-wrap: wrap;
+ }
+
+ footer p{
+   margin-top: 25px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 28px;
+ }
+
+ .logo{
+     margin-top: 50px;
+    color: white;
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 30px;
+ }
+
+ .trafalger{
+    display: flex;
+    justify-content: flex-start;
+ }
+
+.v{
+    width: 40%;
+    padding: 100px;
+}
+ .jk{
+    width: 56%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+ }
+
+ .jk h2{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 200;
+    line-height: 23px;
+    margin-bottom: 30px;
+   
+ }
